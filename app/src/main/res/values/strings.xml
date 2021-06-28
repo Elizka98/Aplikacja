@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Aplikacja</string>
+    <string name="naglowek">Zdrowy styl życia</string>
+    <string name="b1">Ankieta</string>
+    <string name="b2">Obliczenia</string>
+    <string name="naglowek2">Wypełnij krótką ankietę na temat Twojego trybu życia</string>
+    <string name="b3">START</string>
+    <string name="test1">Pytanie nr 1</string>
+    <string name="uzytkownik">Podaj nazwę użytkownika:</string>
+    <string name="b4">DALEJ</string>
+    <string name="test10">Pytanie nr 10</string>
+    <string name="pyt10">Czy wypijasz codziennie więcej niż 2l wody?</string>
+    <string name="b5">TAK</string>
+    <string name="b6">NIE</string>
+    <string name="b8">Zakończ</string>
+    <string name="naglowek3">Twój wynik to:</string>
+    <string name="wynik">Twój tryb życia to tryb siedzący,
+        bez aktywności fizycznej. Zacznij uprawiać sport oraz stosować odpowiednio zbilansowaną dietę.
+        Pij minimum 1,5 l wody.  Taki tryb życia jak Ty prowadzi ponad 50% osób w Polsce.
+        Aby dowiedzieć się więcej na temat zmiany Twojego trybu życia przejdź dalej</string>
+    <string name="b9">Dalej</string>
+    <string name="naglowek4">Wskaźnik BMI</string>
+    <string name="wiek">Wiek:</string>
+    <string name="wzrost">Wzrost:</string>
+    <string name="waga">Waga:</string>
+    <string name="m">m</string>
+    <string name="cm2">cm</string>
+    <string name="cm3">cm</string>
+    <string name="kg">kg</string>
+    <string name="plec">Płeć:</string>
+    <string name="b10">Oblicz BMI </string>
+    <string name="plec1">Kobieta</string>
+    <string name="plec2">Mężczyzna</string>
+    <string name="wynik2">Twój wynik to:</string>
+    <string name="b11">Wyjście</string>
+    <string name="naglowek5">Zapotrzebowanie na płyny</string>
+    <string name="b12">Oblicz</string>
+    <string name="wynik3">Twoje dzienne zapotrzebowanie na płyny wynosi:</string>
+    <string name="naglowek6">Poziom tkanki tłuszczowej</string>
+    <string name="obwod">Obwód:</string>
+    <string name="szyja">Szyja</string>
+    <string name="talia">Talia</string>
+    <string name="biodra">Biodra</string>
+    <string name="wynik4">Zawartość tkanki tłuszczowej:</string>
+    <string name="naglowek7">Wskaźnik BMR</string>
+    <string name="aktywnosc">Wybierz rodzaj aktywności fizycznej:</string>
+    <string name="osiagniecia">Co chcesz osiągnąć:</string>
+    <string name="b16">Oblicz BMR</string>
+    <string name="pyt2">Pytanie nr 2</string>
+    <string name="test2">Czy jesteś aktywny fizyczne ?</string>
+    <string name="test3">Pytanie nr 3</string>
+    <string name="pyt3">Czy Twoja dieta jest zbilansowana ?</string>
+    <string name="test4">Pytanie nr 4</string>
+    <string name="pyt4">Czy śpisz co najmniej 8 godzin dziennie ?</string>
+    <string name="ml">ml</string>
+    <string name="wynik5">Twoje BMI wynosi:</string>
+</resources>

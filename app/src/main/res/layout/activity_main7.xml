@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="189dp"
+    tools:layout_editor_absoluteY="257dp"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity7">
+
+        <Button
+            android:id="@+id/b16"
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#4A03A9F4"
+            android:text="@string/b16"
+            android:onClick="bmr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/spinner2"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="@+id/spinner2"
+            app:layout_constraintTop_toBottomOf="@+id/spinner2"
+            app:layout_constraintVertical_bias="0.173" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="127dp"
+            android:layout_height="98dp"
+            android:layout_marginTop="52dp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumber11"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumber11"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumber11">
+
+            <RadioButton
+                android:id="@+id/plec1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plec1" />
+
+            <RadioButton
+                android:id="@+id/plec2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plec2" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/plec4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="@string/plec"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.196"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/waga3" />
+
+        <TextView
+            android:id="@+id/kg3"
+            android:layout_width="41dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/kg"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.217"
+            app:layout_constraintStart_toEndOf="@+id/editTextNumber11"
+            app:layout_constraintTop_toBottomOf="@+id/cm3"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/editTextNumber11"
+            android:layout_width="146dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumber10"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumber10"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumber10" />
+
+        <TextView
+            android:id="@+id/waga3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/waga"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wzrost3" />
+
+        <TextView
+            android:id="@+id/cm3"
+            android:layout_width="41dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="228dp"
+            android:text="@string/cm3"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.217"
+            app:layout_constraintStart_toEndOf="@+id/editTextNumber10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumber10"
+            android:layout_width="146dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="476dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/editTextNumber9"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextNumber9"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumber9"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/wzrost3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/wzrost"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/wiek2" />
+
+        <EditText
+            android:id="@+id/editTextNumber9"
+            android:layout_width="146dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="number"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/naglowek7"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="@+id/naglowek7"
+            app:layout_constraintTop_toBottomOf="@+id/naglowek7"
+            app:layout_constraintVertical_bias="0.053" />
+
+        <TextView
+            android:id="@+id/wiek2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="164dp"
+            android:text="@string/wiek"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.168"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/naglowek7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="11dp"
+            android:text="@string/naglowek7"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/b15"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#4A03A9F4"
+            android:text="@string/b11"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.007" />
+
+        <TextView
+            android:id="@+id/aktywnosc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/aktywnosc"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+            app:layout_constraintStart_toStartOf="@+id/radioGroup"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="347dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="@+id/aktywnosc"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="@+id/aktywnosc"
+            app:layout_constraintTop_toBottomOf="@+id/aktywnosc" />
+
+        <TextView
+            android:id="@+id/osiagniecie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:text="@string/osiagniecia"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/spinner"
+            app:layout_constraintHorizontal_bias="0.554"
+            app:layout_constraintStart_toStartOf="@+id/spinner"
+            app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="347dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/osiagniecie"
+            app:layout_constraintHorizontal_bias="0.554"
+            app:layout_constraintStart_toStartOf="@+id/osiagniecie"
+            app:layout_constraintTop_toBottomOf="@+id/osiagniecie" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
